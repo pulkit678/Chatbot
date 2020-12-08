@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Chatbot use cases,Chrome 87.0.4280.88,,,2020-12-08 16:08:56,2020-12-08 16:11:51,2m - 54.828s,PASSED
+,,,,,,,
+Test Cases/Chatbot_UC1,Chrome 87.0.4280.88,,,2020-12-08 16:08:57,2020-12-08 16:10:26,1m - 28.924s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-08 16:08:59,2020-12-08 16:09:11,11.879s,PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-08 16:09:11,2020-12-08 16:09:13,2.269s,PASSED
+"navigateToUrl(""https://claimswidget.experiencebuilder.accenture.com/?phonenumber=919742735089&name=swathi"")",Chrome 87.0.4280.88,,,2020-12-08 16:09:13,2020-12-08 16:09:25,11.369s,PASSED
+try,Chrome 87.0.4280.88,,,2020-12-08 16:09:25,2020-12-08 16:10:26,1m - 1.651s,PASSED
+,,,,,,,
+Test Cases/Chatbot_UC2 and UC3,Chrome 87.0.4280.88,,,2020-12-08 16:10:27,2020-12-08 16:11:51,1m - 24.260s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-08 16:10:28,2020-12-08 16:10:35,6.670s,PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-08 16:10:35,2020-12-08 16:10:37,2.177s,PASSED
+"navigateToUrl(""https://claimswidget.experiencebuilder.accenture.com/"")",Chrome 87.0.4280.88,,,2020-12-08 16:10:37,2020-12-08 16:10:50,13.614s,PASSED
+try,Chrome 87.0.4280.88,,,2020-12-08 16:10:50,2020-12-08 16:11:51,1m - 0.491s,PASSED

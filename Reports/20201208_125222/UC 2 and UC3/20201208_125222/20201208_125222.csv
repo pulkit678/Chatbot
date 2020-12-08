@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 2 and UC3,Chrome 87.0.4280.88,,,2020-12-08 12:52:38,2020-12-08 12:55:31,2m - 53.088s,PASSED
+,,,,,,,
+Test Cases/New Test Case,Chrome 87.0.4280.88,,,2020-12-08 12:52:40,2020-12-08 12:55:31,2m - 51.530s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.88,,,2020-12-08 12:52:41,2020-12-08 12:52:56,14.581s,PASSED
+maximizeWindow(),Chrome 87.0.4280.88,,,2020-12-08 12:52:56,2020-12-08 12:52:58,2.253s,PASSED
+"navigateToUrl(""https://claimswidget.experiencebuilder.accenture.com/"")",Chrome 87.0.4280.88,,,2020-12-08 12:52:58,2020-12-08 12:53:13,14.650s,PASSED
+try,Chrome 87.0.4280.88,,,2020-12-08 12:53:13,2020-12-08 12:55:27,2m - 14.395s,FAILED
+catch (Exception e),Chrome 87.0.4280.88,,,2020-12-08 12:55:27,2020-12-08 12:55:31,4.149s,PASSED

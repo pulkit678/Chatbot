@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Chatbot_UC2 and UC3</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f9f52b34-3b53-4a6e-b8bb-f5b00c3aff2d</testCaseGuid>

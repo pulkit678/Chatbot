@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>UC 2 and UC3</name>
+   <name>Chatbot use cases</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -11,10 +11,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>97d30441-1360-454a-8c63-05400c93644d</testSuiteGuid>
    <testCaseLink>
+      <guid>d127e67e-c680-4bc0-aade-0f32e0435653</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Chatbot_UC1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>bf67e020-ec1b-4168-b384-601cf422227e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/New Test Case</testCaseId>
+      <testCaseId>Test Cases/Chatbot_UC2 and UC3</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1459af8d-2792-4da6-95b3-79602c43eb9b</id>

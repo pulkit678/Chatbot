@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Chatbot use cases" time="178.465" tests="2" failures="0" errors="0">
+   <testsuite name="Chatbot use cases" tests="2" failures="0" errors="0" time="178.465" timestamp="2020-12-08 16:08:56" hostname="swathi.venkataswamy - BDC4-L-93211JX.dir.svc.accenture.com" id="Test Suites/Chatbot use cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\swathi.venkataswamy\\git\\chatbot\\Reports\\20201208_160844\\Chatbot use cases\\20201208_160844"/>
+         <property name="logFiles" value="C:\\Users\\swathi.venkataswamy\\git\\chatbot\\Reports\\20201208_160844\\Chatbot use cases\\20201208_160844\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\swathi.venkataswamy\\git\\chatbot\\Reports\\20201208_160844\\Chatbot use cases\\20201208_160844\\1607424025921.png, C:\\Users\\swathi.venkataswamy\\git\\chatbot\\Reports\\20201208_160844\\Chatbot use cases\\20201208_160844\\1607424110746.png"/>
+         <property name="hostName" value="swathi.venkataswamy - BDC4-L-93211JX.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.5.5.1"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.43.140"/>
+         <property name="sessionId" value="d24564409f5d76ddc4942bf6fa2add79"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Chatbot_UC1" time="88.924" classname="Test Cases/Chatbot_UC1" status="PASSED">
+         <system-out><![CDATA[2020-12-08 16:08:57 - [TEST_CASE][PASSED] - Test Cases/Chatbot_UC1: Test Cases/Chatbot_UC1
+
+2020-12-08 16:08:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-08 16:09:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-08 16:09:00 - [MESSAGE][INFO] - User set preference: ['arg', '[start-maximized,use-fake-ui-for-media-stream]']
+
+2020-12-08 16:09:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-08 16:09:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-08 16:09:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-08 16:09:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-08 16:09:13 - [TEST_STEP][PASSED] - navigateToUrl("https://claimswidget.experiencebuilder.accenture.com/?phonenumber=919742735089&name=swathi"): Navigate to 'https://claimswidget.experiencebuilder.accenture.com/?phonenumber=919742735089&name=swathi' successfully
+
+2020-12-08 16:09:25 - [MESSAGE][PASSED] - Navigate to 'https://claimswidget.experiencebuilder.accenture.com/?phonenumber=919742735089&name=swathi' successfully
+
+2020-12-08 16:09:25 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+2020-12-08 16:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/Chat_button")): Object: 'Object Repository/Page_Insurance online Application_UC1/Chat_button' is clicked on
+
+2020-12-08 16:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/Chat_button' is clicked on
+
+2020-12-08 16:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Yes")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes' is clicked on
+
+2020-12-08 16:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes' is clicked on
+
+2020-12-08 16:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/Collision with motor vehicle")): Object: 'Object Repository/Page_Insurance online Application_UC1/Collision with motor vehicle' is clicked on
+
+2020-12-08 16:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/Collision with motor vehicle' is clicked on
+
+2020-12-08 16:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Yes - Photo of dmg vehicle")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Photo of dmg vehicle' is clicked on
+
+2020-12-08 16:09:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Photo of dmg vehicle' is clicked on
+
+2020-12-08 16:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Front End Damage Vehicle")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Front End Damage Vehicle' is clicked on
+
+2020-12-08 16:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Front End Damage Vehicle' is clicked on
+
+2020-12-08 16:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Driver Side")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Driver Side' is clicked on
+
+2020-12-08 16:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Driver Side' is clicked on
+
+2020-12-08 16:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Rear End")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Rear End' is clicked on
+
+2020-12-08 16:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Rear End' is clicked on
+
+2020-12-08 16:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Passenger Side")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Passenger Side' is clicked on
+
+2020-12-08 16:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Passenger Side' is clicked on
+
+2020-12-08 16:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Specific Dmg Parts")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Specific Dmg Parts' is clicked on
+
+2020-12-08 16:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Specific Dmg Parts' is clicked on
+
+2020-12-08 16:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Yes - Witnesses")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Witnesses' is clicked on
+
+2020-12-08 16:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Witnesses' is clicked on
+
+2020-12-08 16:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Insurance online Application_UC1/input_First and last name_name"), "Pulkit"): Text 'Pulkit' is set on object 'Object Repository/Page_Insurance online Application_UC1/input_First and last name_name'
+
+2020-12-08 16:09:54 - [MESSAGE][PASSED] - Text 'Pulkit' is set on object 'Object Repository/Page_Insurance online Application_UC1/input_First and last name_name'
+
+2020-12-08 16:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Insurance online Application_UC1/input_Phone number_phone"), "9789273580"): Text '9789273580' is set on object 'Object Repository/Page_Insurance online Application_UC1/input_Phone number_phone'
+
+2020-12-08 16:09:55 - [MESSAGE][PASSED] - Text '9789273580' is set on object 'Object Repository/Page_Insurance online Application_UC1/input_Phone number_phone'
+
+2020-12-08 16:09:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Insurance online Application_UC1/textarea_Address_address"), "Gurgaon"): Text 'Gurgaon' is set on object 'Object Repository/Page_Insurance online Application_UC1/textarea_Address_address'
+
+2020-12-08 16:09:56 - [MESSAGE][PASSED] - Text 'Gurgaon' is set on object 'Object Repository/Page_Insurance online Application_UC1/textarea_Address_address'
+
+2020-12-08 16:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Submit")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Submit' is clicked on
+
+2020-12-08 16:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Submit' is clicked on
+
+2020-12-08 16:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Yes - Submit_Doc")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Submit_Doc' is clicked on
+
+2020-12-08 16:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Submit_Doc' is clicked on
+
+2020-12-08 16:09:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Vehicle Reg")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Vehicle Reg' is clicked on
+
+2020-12-08 16:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Vehicle Reg' is clicked on
+
+2020-12-08 16:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - Insurance Card")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Insurance Card' is clicked on
+
+2020-12-08 16:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - Insurance Card' is clicked on
+
+2020-12-08 16:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Skip - DL")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - DL' is clicked on
+
+2020-12-08 16:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Skip - DL' is clicked on
+
+2020-12-08 16:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/input_Recommended repair shop_Recommended r_22a5f1")): Object: 'Object Repository/Page_Insurance online Application_UC1/input_Recommended repair shop_Recommended r_22a5f1' is clicked on
+
+2020-12-08 16:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/input_Recommended repair shop_Recommended r_22a5f1' is clicked on
+
+2020-12-08 16:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/img_concat(Next let  s select a repair shop_94ef20")): Object: 'Object Repository/Page_Insurance online Application_UC1/img_concat(Next let  s select a repair shop_94ef20' is clicked on
+
+2020-12-08 16:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/img_concat(Next let  s select a repair shop_94ef20' is clicked on
+
+2020-12-08 16:10:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Yes - Book Rental")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Book Rental' is clicked on
+
+2020-12-08 16:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Book Rental' is clicked on
+
+2020-12-08 16:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/img_concat(Ok here  s a list of our rental _613f26")): Object: 'Object Repository/Page_Insurance online Application_UC1/img_concat(Ok here  s a list of our rental _613f26' is clicked on
+
+2020-12-08 16:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/img_concat(Ok here  s a list of our rental _613f26' is clicked on
+
+2020-12-08 16:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC1/button_Yes - Any Other help")): Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Any Other help' is clicked on
+
+2020-12-08 16:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC1/button_Yes - Any Other help' is clicked on
+
+2020-12-08 16:10:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Insurance online Application_UC1/Thankyou for using InsureMe"), 20): Object 'Object Repository/Page_Insurance online Application_UC1/Thankyou for using InsureMe' is present
+
+2020-12-08 16:10:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Insurance online Application_UC1/Thankyou for using InsureMe' is present
+
+2020-12-08 16:10:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-12-08 16:10:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\swathi.venkataswamy\\git\\chatbot\\Reports\\20201208_160844\\Chatbot use cases\\20201208_160844\\1607424025921.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Chatbot_UC2 and UC3" time="84.26" classname="Test Cases/Chatbot_UC2 and UC3" status="PASSED">
+         <system-out><![CDATA[2020-12-08 16:10:27 - [TEST_CASE][PASSED] - Test Cases/Chatbot_UC2 and UC3: Test Cases/Chatbot_UC2 and UC3
+
+2020-12-08 16:10:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-12-08 16:10:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-08 16:10:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-08 16:10:29 - [MESSAGE][INFO] - User set preference: ['arg', '[start-maximized,use-fake-ui-for-media-stream]']
+
+2020-12-08 16:10:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-08 16:10:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-08 16:10:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-12-08 16:10:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-08 16:10:37 - [TEST_STEP][PASSED] - navigateToUrl("https://claimswidget.experiencebuilder.accenture.com/"): Navigate to 'https://claimswidget.experiencebuilder.accenture.com/' successfully
+
+2020-12-08 16:10:50 - [MESSAGE][PASSED] - Navigate to 'https://claimswidget.experiencebuilder.accenture.com/' successfully
+
+2020-12-08 16:10:50 - [TEST_STEP][PASSED] - try: Taking screenshot successfully
+
+2020-12-08 16:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/img_ng-tns-c2-0")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/img_ng-tns-c2-0' is clicked on
+
+2020-12-08 16:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/img_ng-tns-c2-0' is clicked on
+
+2020-12-08 16:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Book Rental Car")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Book Rental Car' is clicked on
+
+2020-12-08 16:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Book Rental Car' is clicked on
+
+2020-12-08 16:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Insurance online Application_UC2 and UC3/input_Happy to helpPlease enter your regist_77e9ab"), MobileNumber): Text '9742735089' is set on object 'Object Repository/Page_Insurance online Application_UC2 and UC3/input_Happy to helpPlease enter your regist_77e9ab'
+
+2020-12-08 16:11:01 - [MESSAGE][PASSED] - Text '9742735089' is set on object 'Object Repository/Page_Insurance online Application_UC2 and UC3/input_Happy to helpPlease enter your regist_77e9ab'
+
+2020-12-08 16:11:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Insurance online Application_UC2 and UC3/input_Happy to helpPlease enter your regist_77e9ab"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/input_Happy to helpPlease enter your regist_77e9ab'
+
+2020-12-08 16:11:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/input_Happy to helpPlease enter your regist_77e9ab'
+
+2020-12-08 16:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Yes")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes' is clicked on
+
+2020-12-08 16:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes' is clicked on
+
+2020-12-08 16:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/input_Date Time_ng-tns-c2-0")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/input_Date Time_ng-tns-c2-0' is clicked on
+
+2020-12-08 16:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/input_Date Time_ng-tns-c2-0' is clicked on
+
+2020-12-08 16:11:07 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_Insurance online Application_UC2 and UC3/svg")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/svg' is double clicked on
+
+2020-12-08 16:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/svg' is double clicked on
+
+2020-12-08 16:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/span_Set")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/span_Set' is clicked on
+
+2020-12-08 16:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/span_Set' is clicked on
+
+2020-12-08 16:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/span")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/span' is clicked on
+
+2020-12-08 16:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/span' is clicked on
+
+2020-12-08 16:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button__owl-dot")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button__owl-dot' is clicked on
+
+2020-12-08 16:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button__owl-dot' is clicked on
+
+2020-12-08 16:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/img_concat(Ok here  s a list of our rental _613f26")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/img_concat(Ok here  s a list of our rental _613f26' is clicked on
+
+2020-12-08 16:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/img_concat(Ok here  s a list of our rental _613f26' is clicked on
+
+2020-12-08 16:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Yes (1)")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (1)' is clicked on
+
+2020-12-08 16:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (1)' is clicked on
+
+2020-12-08 16:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Medical Records")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Medical Records' is clicked on
+
+2020-12-08 16:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Medical Records' is clicked on
+
+2020-12-08 16:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Yes (2)")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (2)' is clicked on
+
+2020-12-08 16:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (2)' is clicked on
+
+2020-12-08 16:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/div_ISwathi authorize InsureMe to collect m_0a84c3")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/div_ISwathi authorize InsureMe to collect m_0a84c3' is clicked on
+
+2020-12-08 16:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/div_ISwathi authorize InsureMe to collect m_0a84c3' is clicked on
+
+2020-12-08 16:11:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/canvas")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/canvas' is clicked on
+
+2020-12-08 16:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/canvas' is clicked on
+
+2020-12-08 16:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Submit")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Submit' is clicked on
+
+2020-12-08 16:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Submit' is clicked on
+
+2020-12-08 16:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Yes (3)")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (3)' is clicked on
+
+2020-12-08 16:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (3)' is clicked on
+
+2020-12-08 16:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Other Driver Information")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Other Driver Information' is clicked on
+
+2020-12-08 16:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Other Driver Information' is clicked on
+
+2020-12-08 16:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Yes (4)")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (4)' is clicked on
+
+2020-12-08 16:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Yes (4)' is clicked on
+
+2020-12-08 16:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Skip_1")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Skip_1' is clicked on
+
+2020-12-08 16:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Skip_1' is clicked on
+
+2020-12-08 16:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Skip_2")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Skip_2' is clicked on
+
+2020-12-08 16:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Skip_2' is clicked on
+
+2020-12-08 16:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_Skip_3")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Skip_3' is clicked on
+
+2020-12-08 16:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_Skip_3' is clicked on
+
+2020-12-08 16:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Insurance online Application_UC2 and UC3/button_No")): Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_No' is clicked on
+
+2020-12-08 16:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Insurance online Application_UC2 and UC3/button_No' is clicked on
+
+2020-12-08 16:11:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-12-08 16:11:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\swathi.venkataswamy\\git\\chatbot\\Reports\\20201208_160844\\Chatbot use cases\\20201208_160844\\1607424110746.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-08 16:08:56 - [TEST_SUITE][PASSED] - Chatbot use cases: Test Cases/Chatbot_UC2 and UC3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
