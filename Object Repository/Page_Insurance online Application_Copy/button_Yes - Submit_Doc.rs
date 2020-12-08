@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip - DL</name>
+   <name>button_Yes - Submit_Doc</name>
    <tag></tag>
-   <elementGuidId>6b880862-2888-4fda-a7c8-bcbad3f7a4d9</elementGuidId>
+   <elementGuidId>2ef47e7f-1fe6-4c07-a409-f868efb53c35</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button/text()[normalize-space(.)='Take a photo']/parent::*)[8]</value>
+         <value>(//button/text()[normalize-space(.)='Yes']/parent::*)[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

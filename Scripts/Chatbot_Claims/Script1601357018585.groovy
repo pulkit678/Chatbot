@@ -32,17 +32,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://claimswidget.experiencebuilder.accenture.com/?phonenumber=919742735089&name=swathi')
 
-WebUI.click(findTestObject('Core/Page_Insurance online Application(1)/Chat_button'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/Chat_button'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Yes'))
 
-WebUI.click(findTestObject('Core/Page_Insurance online Application(1)/Collision with motor vehicle'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/Collision with motor vehicle'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes - Photo of dmg vehicle'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Yes - Photo of dmg vehicle'))
 
-//WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Front End Damage Vehicle'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Front End Damage Vehicle'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Take a photo'))
+/*WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Take a photo'))
 
 Robot robot = new Robot();
 // Creates the delay of 5 sec so that you can open notepad before
@@ -52,61 +52,61 @@ robot.keyPress(KeyEvent.VK_TAB);
 robot.keyPress(KeyEvent.VK_TAB);
 robot.keyPress(KeyEvent.VK_ENTER);
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Take a photo'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Take a photo'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Take a photo'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Take a photo'))
+*/
 
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Driver Side'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Driver Side'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Driver Side'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Driver Side'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Rear End'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Rear End'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Rear End'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Rear End'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Passenger Side'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Passenger Side'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Passenger Side'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Passenger Side'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Specific Dmg Parts'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Specific Dmg Parts'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Specific Dmg Parts'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Specific Dmg Parts'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Yes - Witnesses'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes - Witnesses'))
+WebUI.setText(findTestObject('Object Repository/Page_Insurance online Application_Copy/input_First and last name_name'),
+	'Pulkit')
 
-WebUI.setText(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/input_First and last name_name'), 
-    'Pulkit')
+WebUI.setText(findTestObject('Object Repository/Page_Insurance online Application_Copy/input_Phone number_phone'), '9789273580')
 
-WebUI.setText(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/input_Phone number_phone'), '9789273580')
+WebUI.setText(findTestObject('Object Repository/Page_Insurance online Application_Copy/textarea_Address_address'), 'Gurgaon')
 
-WebUI.setText(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/textarea_Address_address'), 'Gurgaon')
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Submit'))
+//WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application_Copy/button_No - Other Witnesses'))
 
-//WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_No - Other Witnesses'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Yes - Submit_Doc'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes - Submit_Doc'))
+// WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application_Copy/div_Would you like to submit this now Yes No'))
 
-// WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/div_Would you like to submit this now Yes No'))
+// WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application_Copy/button_Yes'))
 
-// WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Vehicle Reg'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Vehicle Reg'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Vehicle Reg'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Vehicle Reg'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Insurance Card'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - Insurance Card'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Insurance Card'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - Insurance Card'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - DL'))
+//WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Skip - DL'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - DL'))
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Skip - DL'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/input_Recommended repair shop_Recommended r_22a5f1'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/input_Recommended repair shop_Recommended r_22a5f1'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/img_concat(Next let  s select a repair shop_94ef20'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/img_concat(Next let  s select a repair shop_94ef20'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Yes - Book Rental'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes - Book Rental'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/img_concat(Ok here  s a list of our rental _613f26'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/img_concat(Ok here  s a list of our rental _613f26'))
+WebUI.click(findTestObject('Object Repository/Page_Insurance online Application_Copy/button_Yes - Any Other help'))
 
-WebUI.click(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/button_Yes - Any Other help'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Core/Page_Insurance online Application(1)/Thankyou for using InsureMe'), 20)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Insurance online Application_Copy/Thankyou for using InsureMe'), 20)
 
 //WebUI.closeBrowser()
 

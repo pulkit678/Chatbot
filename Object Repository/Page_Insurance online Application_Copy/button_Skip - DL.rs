@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip - Driver Side</name>
+   <name>button_Skip - DL</name>
    <tag></tag>
-   <elementGuidId>58aededd-429e-4f6c-ba7f-a23720a710b6</elementGuidId>
+   <elementGuidId>6b880862-2888-4fda-a7c8-bcbad3f7a4d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button/text()[normalize-space(.)='Take a photo']/parent::*)[2]</value>
+         <value>(//button/text()[normalize-space(.)='Skip']/parent::*)[8]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

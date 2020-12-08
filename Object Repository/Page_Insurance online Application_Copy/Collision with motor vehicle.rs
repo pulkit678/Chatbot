@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name=' Collision with motor vehicle ']</value>
+         <value>//div[text()='Collision with another vehicle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

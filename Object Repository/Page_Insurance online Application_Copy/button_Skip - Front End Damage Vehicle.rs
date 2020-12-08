@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Skip - Rear End</name>
+   <name>button_Skip - Front End Damage Vehicle</name>
    <tag></tag>
-   <elementGuidId>4c2080c8-7bd0-4663-af3f-3a68bec24ae6</elementGuidId>
+   <elementGuidId>bc2ecff7-b605-4c56-a76a-54dbdb65216f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button/text()[normalize-space(.)='Take a photo']/parent::*)[3]</value>
+         <value>(//button/text()[normalize-space(.)='Skip']/parent::*)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
